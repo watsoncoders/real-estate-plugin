@@ -1,0 +1,38 @@
+.btn-teal {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filter-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.filter-row label, .filter-row select, .filter-row input {
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+#price-slider {
+    width: 100%;
+}
+
+#price-amount {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
